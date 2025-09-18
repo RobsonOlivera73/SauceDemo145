@@ -6,7 +6,7 @@ const { test, expect } = require('@playwright/test')
 // Um script pode executar de forma:
 // - Sincrona: Simultâneo. Ex.: Ligação de Voz
 // - Assincrona: Separado. Ex.: mensagem de texto no Whatsapp
-// 
+// testes 4
    test('Realizar o fluxo de compra da mochila', async ({page}) => {
     
     await page.goto('/') // abre o browser no site alvo
