@@ -8,7 +8,7 @@ const { test, expect } = require('@playwright/test')
 // - Assincrona: Separado. Ex.: mensagem de texto no Whatsapp
 
    test('Realizar o fluxo de compra da mochila', async ({page}) => {
-    // teste github
+    
     await page.goto('/') // abre o browser no site alvo
     await expect(page).toHaveURL('/')            // verifica se está na página raiz
     const botao_login = page.locator('#login-button')
